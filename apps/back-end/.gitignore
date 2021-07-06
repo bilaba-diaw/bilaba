@@ -17,16 +17,6 @@
 .classpath
 .springBeans
 
-
-## /* Front-End */
-# compiled output
-apps/front-end/dist
-apps/front-end/tmp
-apps/front-end/out-tsc
-
-# dependencies
-apps/front-end/node_modules
-
 # IDEs and editors
 apps/rfront-end/.idea
 .project
@@ -43,32 +33,12 @@ apps/rfront-end/.idea
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# misc
-apps/front-end/.sass-cache
-apps/front-end/connect.lock
-apps/front-end/coverage
-apps/front-end/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-front-end/typings
-
 # System Files
 .DS_Store
 Thumbs.db
 
 
 
-## /* Infra */
-##############################
-## Wildfly
-##############################
-infra/wildfly/standalone
-
-##############################
-## Oracle DB
-##############################
-infra/BD
 
 ##############################
 ## Visual Studio Code
