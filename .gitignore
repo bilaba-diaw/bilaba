@@ -1,0 +1,82 @@
+## /* Back-End */
+
+/target/
+/.settings/
+/.project
+/.classpath
+/.tern-project
+/.DS_Store
+*iml
+/.idea/*
+
+
+/target/
+/.settings/
+.settings
+.project
+.classpath
+.springBeans
+
+
+## /* Front-End */
+# compiled output
+apps/front-end/dist
+apps/front-end/tmp
+apps/front-end/out-tsc
+
+# dependencies
+apps/front-end/node_modules
+
+# IDEs and editors
+apps/front-end/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+apps/front-end/.sass-cache
+apps/front-end/connect.lock
+apps/front-end/coverage
+apps/front-end/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+bilaba/front-end/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+
+## /* Infra */
+##############################
+## Wildfly
+##############################
+infra/wildfly/standalone
+
+##############################
+## Oracle DB
+##############################
+infra/BD
+
+##############################
+## Visual Studio Code
+##############################
+.vscode/
+.code-workspace
+
+##############################
+## OS X
+##############################
+.DS_Store
